@@ -1,0 +1,28 @@
+.password {
+	position: relative;
+}
+
+.eye {
+	position: absolute;
+	top: 11px;
+	right: 10px;
+	font-size: 1.2rem;
+}
+
+form.user .form-group input[type="password"] {
+	padding: 24px 40px 24px 16px;
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(31, 31, 31);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(58, 58, 58);
+	border-radius: 10px;
+}
