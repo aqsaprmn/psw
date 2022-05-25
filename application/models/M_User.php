@@ -16,10 +16,45 @@ class M_User extends CI_Model
         return $data;
     }
 
+    public function getDataWAll($table, $where)
+    {
+        $data = $this->db->get_where($table, $where)->result_array();
+
+        return $data;
+    }
+
     public function getDataAll($table)
     {
         $data = $this->db->get($table)->result_array();
 
         return $data;
+    }
+
+    public function editData($table, $data, $where)
+    {
+        $this->db->set($data);
+        $this->db->where($where);
+        $this->db->update($table);
+
+        return $this->db->affected_rows();
+    }
+
+    public function insertData($table, $data)
+    {
+        $this->db->insert($table, $data);
+
+        return $this->db->affected_rows();
+    }
+
+    public function deletetData($table, $where)
+    {
+        $this->db->delete($table, $where);
+
+        return $this->db->affected_rows();
+    }
+
+    public function cekDataAvai($table, $where)
+    {
+        return $this->db->get_where($table, $where)->num_rows();
     }
 }

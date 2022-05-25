@@ -43,6 +43,9 @@
     </div>
 </div>
 
+<!-- My Script-->
+<script src="<?= base_url('assets') ?>/bootstrap5/js/bootstrap.min.js"></script>
+
 <!-- Bootstrap core JavaScript-->
 <script src="<?= base_url('assets') ?>/vendor/jquery/jquery.min.js"></script>
 <script src="<?= base_url('assets') ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -56,11 +59,13 @@
 <!-- Page level plugins -->
 <script src="<?= base_url('assets') ?>/vendor/chart.js/Chart.min.js"></script>
 
-<!-- Page level custom scripts -->
-<script src="<?= base_url('assets') ?>/js/demo/chart-area-demo.js"></script>
-<script src="<?= base_url('assets') ?>/js/demo/chart-pie-demo.js"></script>
-<script src="<?= base_url('assets') ?>/js/demo/chart-bar-demo.js"></script>
+<!-- Script Controller -->
+<?php if (isset($script)) {
+    echo $script;
+} ?>
 
+<!-- Sweetalert -->
+<script src="<?= base_url('assets') ?>/vendor/sweetalert/dist/sweetalert2.all.min.js"></script>
 
 </body>
 

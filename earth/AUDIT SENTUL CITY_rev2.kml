@@ -1,0 +1,2814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>AUDIT SENTUL CITY_rev2.kmz</name>
+	<Style id="sh_ylw-pushpin1124">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2212">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin268">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2212</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1124</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2114">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin525">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2410">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin259">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin817">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin259</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1314</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin505">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2012">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2114">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1513</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0002">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin703">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1204">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin706">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1204</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin703</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1911">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1613">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1813">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1613</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1911</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin504</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2003</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin625">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin265">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1303">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin904">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2003">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin904</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1303</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin6003">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin328">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1119">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2113</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1414</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl018">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1119">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin004">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin257">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin602">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin11011">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin116">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin004</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl018</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin427">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1109">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin427</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin602</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin308">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin304</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1017</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin3115">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1215">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin817">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1613">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2211">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin282</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin22120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin292">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin325">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin292</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1613</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2310">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin719">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1123">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin307">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin625">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1123</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin267">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9170</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin719</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin423">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin265</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin625</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin624">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin22120">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1122">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1715</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin257</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin282">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1017">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin304">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin258">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1314">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin299">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1513">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin286">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin624</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin258</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin272">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin817</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin307</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin256">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin5112">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1813</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin256</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1503">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1119</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin009</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1614">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin299</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1813">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1414">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin035">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin718">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin915">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1313">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin327</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin328</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2113">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin704">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin327">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin704</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin915</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1513">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin264">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="__managed_style_064D3350832104D82738">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_123CF125222104D82738</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2E2559879D2104D82738</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin804">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin328">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1514">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1314</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1713</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin506">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10050</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin804</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2312">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1215</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3115</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin329">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1912">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8190</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin9170">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin405">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin607</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin283</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1017">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin718">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2410</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin525</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6003</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2310">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin283">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0011">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin263</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2114</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1715">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1712">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin328</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin264</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1913">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin425">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2410">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin269">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin718</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1812</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin803">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin604">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin505</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin009">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin272">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_123CF125222104D82738">
+		<Style>
+			<IconStyle>
+				<color>ff00aa55</color>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ffff0000</color>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="sh_ylw-pushpin2010">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1412">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1118">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1412</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin425</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin272">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin470">
+		<IconStyle>
+			<color>ff00aa55</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1216">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1017</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1125</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin405">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin264">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin527">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin035</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin272</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin8190">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10050">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin607">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin047">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1913</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin329</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin034">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1125">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin241000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin272</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2410</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin504">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1713">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0002">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1314">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin9150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin405</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl004">
+		<IconStyle>
+			<color>ff00aa55</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1812">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10030">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin019">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin470</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl004</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2E2559879D2104D82738">
+		<Style>
+			<IconStyle>
+				<color>ff00aa55</color>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ffff0000</color>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="msn_ylw-pushpin2510">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin264</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin034</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin263">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3112">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder id="09FAF9AD7520F08166A5">
+		<name>AUDIT SENTUL CITY</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<Folder id="0484BB7BC320F081B69E">
+			<name>POLE</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<Placemark id="0BDB952F6620F081B6A5">
+				<name>XL_POLE JungleLand</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8899663928652</longitude>
+					<latitude>-6.576369205990564</latitude>
+					<altitude>0</altitude>
+					<heading>-29.69835741517737</heading>
+					<tilt>45.00061638129682</tilt>
+					<range>103.2277044242853</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#__managed_style_064D3350832104D82738</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8899572464374,-6.576308632810365,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="01DC0C3E9320F081B6C6">
+				<name>TSEL_POLE Beverly</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.89121</longitude>
+					<latitude>-6.581370000000002</latitude>
+					<altitude>0</altitude>
+					<heading>4.373262687012336e-15</heading>
+					<tilt>0</tilt>
+					<range>1000.000000000703</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8912459437459,-6.581245025885674,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1E56F2C69D20F081B6C6">
+				<name>TSEL_POLE Kedaton</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8918073150683</longitude>
+					<latitude>-6.588650102381452</latitude>
+					<altitude>0</altitude>
+					<heading>-2.900926919762171e-05</heading>
+					<tilt>0</tilt>
+					<range>1004.688028391425</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8915725819252,-6.588632165302663,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="02B036B2D520F081B6C7">
+				<name>TSE L&amp; XL_POLE Pasadena</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8857987974241</longitude>
+					<latitude>-6.583584666815518</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001559706878343074</heading>
+					<tilt>0</tilt>
+					<range>1014.767720555622</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8844127553758,-6.58353937582341,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1A3179182720F081B6C7">
+				<name>TSEL_POLE Balihill</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.889039</longitude>
+					<latitude>-6.587241999999999</latitude>
+					<altitude>0</altitude>
+					<heading>1.391492673140288e-14</heading>
+					<tilt>0</tilt>
+					<range>1000.000000000407</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.889074944174,-6.587161659498971,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="26E7B8532120F081B6C7">
+				<name>XL_POLE Northridge Roff 1</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8766373914077</longitude>
+					<latitude>-6.581693203951581</latitude>
+					<altitude>0</altitude>
+					<heading>-1.824074110853848e-08</heading>
+					<tilt>29.77772035771246</tilt>
+					<range>111.2440760728534</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8766848884277,-6.581793230486863,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="3AA3197D5320F081B6C7">
+				<name>TSEL_POLE Northridge Roff 2</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8766373914077</longitude>
+					<latitude>-6.581693203951581</latitude>
+					<altitude>0</altitude>
+					<heading>-1.824074110853848e-08</heading>
+					<tilt>29.77772035771246</tilt>
+					<range>111.2440760728534</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8766392629758,-6.581821728834089,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="0FFC210E9220F081B6C8">
+				<name>TSEL_POLE Parayangan Golf</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.871813</longitude>
+					<latitude>-6.583674000000001</latitude>
+					<altitude>0</altitude>
+					<heading>5.565970692561154e-15</heading>
+					<tilt>0</tilt>
+					<range>1000.000000000621</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8718399579373,-6.583593659499578,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1D7513953420F081B6C8">
+				<name>XL_POLE BGH</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8658556957356</longitude>
+					<latitude>-6.581256543797392</latitude>
+					<altitude>0</altitude>
+					<heading>-2.033670316158815e-05</heading>
+					<tilt>0</tilt>
+					<range>1039.475321724485</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8653419591836,-6.581460684145886,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="2E77F985F420F081B6C8">
+				<name>XL_POLE Plaza Niaga 2</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.859929</longitude>
+					<latitude>-6.568707000000002</latitude>
+					<altitude>0</altitude>
+					<heading>1.073437204993937e-14</heading>
+					<tilt>0</tilt>
+					<range>1000.000000000615</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8599469714169,-6.56863558622473,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="3DD156718C20F081B6C8">
+				<name>XL_POLE Hilltop</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8573070000348</longitude>
+					<latitude>-6.572889321201184</latitude>
+					<altitude>0</altitude>
+					<heading>8.148978663244713e-12</heading>
+					<tilt>27.62678669341002</tilt>
+					<range>209.6097752952906</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8573070000348,-6.572914507034755,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="087F1443A720F081B6C9">
+				<name>XL_Marketing Galery (MG)</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8468078581408</longitude>
+					<latitude>-6.566627702762585</latitude>
+					<altitude>0</altitude>
+					<heading>4.418339871587686e-05</heading>
+					<tilt>28.56617041968113</tilt>
+					<range>193.8438187574699</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8468028777553,-6.566798581550426,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1FF564E96820F081B6C9">
+				<name>XL_POLE Victoria</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8628633183524</longitude>
+					<latitude>-6.560356846616744</latitude>
+					<altitude>0</altitude>
+					<heading>-4.871973064711813e-08</heading>
+					<tilt>26.28481858545317</tilt>
+					<range>238.6286938156962</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8628675900047,-6.560375778877392,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="2DD9992CB920F081B6C9">
+				<name>XL_POLE Northridge Entrance</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>106.8742561723873</longitude>
+					<latitude>-6.575901943352497</latitude>
+					<altitude>0</altitude>
+					<heading>8.92981239136137e-09</heading>
+					<tilt>29.29639975963146</tilt>
+					<range>165.804425071353</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin019</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.8742561723873,-6.575933851426028,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder id="343208CB5220F081B6C9">
+			<name>FO</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<Placemark id="0198EF826B20F081B6CA">
+				<name>Kabel 12 (owner)</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1514</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8770069635237,-6.578048343465125,0 106.8771344698155,-6.5774210099894,0 106.8771996757631,-6.577141579664435,0 106.8771308905362,-6.576817907496693,0 106.8763852794657,-6.57604483375971,0 106.87603727916,-6.575656551897302,0 106.8754366737179,-6.574364482139313,0 106.8752160195737,-6.574126631107735,0 106.8743662320217,-6.573868023094728,0 106.8741165381676,-6.574137133471917,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1BE029174120F081B6CA">
+				<name>Kabel 12_BCA Training</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<LookAt>
+					<longitude>106.8819954756679</longitude>
+					<latitude>-6.585554244134109</latitude>
+					<altitude>294.9898891167339</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>30</gx:fovy>
+					<range>1000.000027557981</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin241000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.881526205731,-6.585636592318861,0 106.8817507718472,-6.585635977979691,0 106.8820712940745,-6.585471895899937,0 106.8824647453263,-6.58548579803306,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0E7B6F3A2920F081B6CB">
+				<name>Kabel 12_CCTV</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin047</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8892196176103,-6.581821361616951,0 106.8892788236166,-6.582119112208361,0 106.8892800151804,-6.582220284542468,0 106.8889931467835,-6.582294331347218,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="186C2E60CD20F081B6CB">
+				<name>Kabel 12_CCTV</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin2510</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8897593628162,-6.5843261405792,0 106.8897932202447,-6.584259689997044,0 106.8898506319379,-6.584232853647564,0 106.8898385741285,-6.584177904783906,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="05CEE207D920F081B6CC">
+				<name>Kabel 12_CCTV</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1118</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8896670134164,-6.584517796396522,0 106.8896623012394,-6.584604472518721,0 106.8895935083914,-6.584618086372475,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="121F06D1B520F081B6CC">
+				<name>Kabel 12_CCTV</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1118</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.890112442971,-6.586596836959497,0 106.8902056392447,-6.586579127412853,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="06354D483120F081B6CD">
+				<name>Kabel 12_CCTV Venesia</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1712</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.882292508398,-6.582849348766913,0 106.8823824842115,-6.582594515387774,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0187793AB520F081B6CE">
+				<name>KABEL 12_GIANT</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin803</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8533724623723,-6.568130065909478,0 106.8536400978466,-6.568142500706524,0 106.8540347355231,-6.567700060003945,0 106.8544714264933,-6.567611776464122,0 106.8549752381203,-6.567639080080429,0 106.8552499697604,-6.56741526151824,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1107DA758220F081B6CE">
+				<name>Kabel 12_Hotel Aston</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin241000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.881526205731,-6.585636592318861,0 106.8814763664186,-6.586310353603791,0 106.8817045916318,-6.586846073507127,0 106.8824298366036,-6.587058639633119,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="056DD44F2120F081B6CF">
+				<name>KABEL 12_IMORA</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1216</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8474918857531,-6.56642299796,0 106.8486998256117,-6.566833757692447,0 106.8488551948304,-6.566592600949954,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="12F876B22520F081B6CF">
+				<name>Kabel 12_Node Casablanca</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin405</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8504189226873,-6.575450567489344,0 106.8505664540978,-6.576002256907706,0 106.8507377766925,-6.576401848039558,0 106.8509249733661,-6.576344330002596,0 106.8510520995649,-6.576866068025957,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0C4830BCE620F081B6D0">
+				<name>Kabel 12_Node Country Yuanani</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1912</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8574650366364,-6.574974432272024,0 106.857489183179,-6.575085954245998,0 106.8572652302216,-6.575218802026556,0 106.8571500262576,-6.575763151936888,0 106.8570831045552,-6.576099435432187,0 106.8570683540331,-6.576227173323757,0 106.8574633253825,-6.576442395353094,0 106.8580825352696,-6.576509014207914,0 106.8581564514497,-6.576597045425615,0 106.8581192490277,-6.576761209074204,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1058F9761720F081B6D0">
+				<name>Kabel 12_Node Equator</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin405</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8504166831346,-6.575469757233532,0 106.8494553928066,-6.575268582237876,0 106.8492768519844,-6.57531129121171,0 106.8491667221179,-6.575251589568683,0 106.8491225753721,-6.575152003807561,0 106.8489019746332,-6.574992360542269,0 106.848600504056,-6.574667179138832,0 106.8483217010014,-6.574259567417452,0 106.8482099244745,-6.573881542965819,0 106.8481303198297,-6.573650189876966,0 106.8478830042269,-6.573636430128152,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="09CA82CAFF20F081B6D1">
+				<name>Kabel 12_Node FM</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1912</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8841719801995,-6.581412292678847,0 106.8847076896842,-6.580326019501453,0 106.8851857410821,-6.579344666759438,0 106.8851836718848,-6.579195480723252,0 106.8853238839352,-6.579117972905103,0 106.8854115790671,-6.578926468367908,0 106.8838349982771,-6.578159242612445,0 106.8837483701438,-6.578213282194413,0 106.8836955947359,-6.578170425738843,0 106.8837252941045,-6.578081344235868,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="04B24B814F20F081B6D2">
+				<name>KABEL 12_NODE IMORA</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1216</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8474879132643,-6.566426023506006,0 106.8483574629266,-6.566526634861483,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1B238BDAF520F081B6D2">
+				<name>Kabel 12_NODE Legian</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin047</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8892240538994,-6.581823203335187,0 106.8892874788583,-6.582177361802323,0 106.8889841995573,-6.582241329866454,0 106.8887346181713,-6.582305052499446,0 106.8885633342383,-6.582407595297419,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="00C2095D8F20F081B6D3">
+				<name>KAbel 12_Node Plaza 2</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1122</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8599380204371,-6.568627725119832,0 106.8599525178911,-6.568684131854928,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="17123E0F3520F081B6D3">
+				<name>Kabel 12_Node Tampang Siring</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1118</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8896739287397,-6.584513011171958,0 106.8896381440967,-6.584591846216999,0 106.8895108356627,-6.584613756753496,0 106.8894235658535,-6.584625796869584,0 106.889412116715,-6.58454660539452,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0F17367BD620F081B6D4">
+				<name>Kabel 12_Node Yunani</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1912</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8574720075921,-6.574965974011859,0 106.8575277268374,-6.57510076777229,0 106.8572843242648,-6.575238249904387,0 106.8570774417354,-6.576191993407259,0 106.8567518627881,-6.576480312462056,0 106.8563873528763,-6.576671304140779,0 106.8561332708773,-6.576747152847407,0 106.8547535913447,-6.57674662063684,0 106.8547325172738,-6.577138857427275,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="18CEAB7FD620F081B6D4">
+				<name>Kabel 12_POLE TSEL Beverly</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin047</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8892510701327,-6.581833058833846,0 106.8896993594575,-6.581746930237608,0 106.8901023009591,-6.581900096971837,0 106.8910880414722,-6.581778529498348,0 106.8913824627921,-6.581715566697425,0 106.891283759,-6.581257301062131,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="03376BCE6820F081B6D5">
+				<name>KABEL 12_POLE XL BGH</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin506</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8652503667609,-6.58176499105284,0 106.8653480293637,-6.581468763568019,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1C31A3419B20F081B6D5">
+				<name>Kabel 12_POLE XL JungleLand</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1313</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8913824546759,-6.5789274781645,0 106.8909524527764,-6.578326435496746,0 106.8905430134675,-6.577840005896095,0 106.8903916272193,-6.577495391382758,0 106.89025533799,-6.576752841246596,0 106.8902044146931,-6.576298564886748,0 106.8900030074295,-6.576326668163798,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0EF3F6631A20F081B6D6">
+				<name>KABEL 12_POLE XL_MG</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin4002</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8465860450661,-6.566864728615624,0 106.8468155410002,-6.566819626327056,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="138A9451D020F081B6D6">
+				<name>KABEL 12_POLE XL_PLAZA 2</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin506</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8622861968926,-6.570914961521797,0 106.8617214803873,-6.570108568045328,0 106.8615380932568,-6.569811236819458,0 106.8612252754119,-6.569415276075313,0 106.8607927069391,-6.568954842682978,0 106.8601172083412,-6.568554848734821,0 106.8599616305773,-6.568643742966908,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="040B15E46620F081B6D7">
+				<name>KABEL 12_RS PERTAMEDIKA</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin803</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8533840992527,-6.568152080731117,0 106.8535782720194,-6.568121998836539,0 106.8536913984011,-6.567936637045911,0 106.8536880602382,-6.567769361995909,0 106.8537380553551,-6.567561027022273,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1E2DF2F0CE20F081B6D7">
+				<name>Kabel 12_TSEL POLE Balihill</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin269</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8845061398745,-6.583570493269825,0 106.8848468822116,-6.583977778847096,0 106.8853409297415,-6.584662096458941,0 106.8856427093584,-6.584840479391638,0 106.8860160514904,-6.584380586533827,0 106.8869330338654,-6.585221894933289,0 106.8873109473661,-6.585549569712358,0 106.8879176705729,-6.586562677176082,0 106.888113421601,-6.586851720969222,0 106.8888795412928,-6.587277598818819,0 106.889021583529,-6.587172202823901,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="05DB977F5520F081B6D8">
+				<name>Kabel 12_TSEL POLE Pasadena</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin269</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.884548232696,-6.583571682084478,0 106.8845134601605,-6.583527230909436,0 106.884401460347,-6.583538142658606,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="059D9E01D220F081B6D9">
+				<name>Kabel 12_TW House</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin241000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8815282426567,-6.585623112262732,0 106.8813277956683,-6.585793991439064,0 106.8814858196072,-6.586622996177596,0 106.881762161603,-6.587002091023318,0 106.8819287690063,-6.587447281834439,0 106.8819552054476,-6.588197314343533,0 106.8820046298767,-6.588524943964614,0 106.8822542270559,-6.588895262231524,0 106.8824599710771,-6.589073775472525,0 106.8828168276092,-6.589333792378833,0 106.8831595016863,-6.589550581489503,0 106.8834266353788,-6.589747912213475,0 106.8835076901878,-6.589966746417714,0 106.8834911765454,-6.590453324537009,0 106.8833700625461,-6.590622549416418,0 106.8832024321404,-6.590863068860564,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="119D393E5020F081B6D9">
+				<name>Kabel 12_Victoria 03</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin1912</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8627598103303,-6.561383015444236,0 106.8611946983197,-6.561383191423677,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="299D076DC120F081B6D9">
+				<name>Kabel 12_XL POLE Pasadena</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin269</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8845422767048,-6.583570598628647,0 106.8845130080968,-6.583514323393998,0 106.8843980373884,-6.583536360259241,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="08F1A83FBF20F081B6DA">
+				<name>Kabel 24_APartement</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin5112</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8616067899728,-6.565208774392104,0 106.8609583565982,-6.565452000870907,0 106.8604027122301,-6.565821793646103,0 106.860227789873,-6.565913152504728,0 106.8601517523014,-6.565196337833954,0 106.8597280342562,-6.565134954899214,0 106.8597609393167,-6.564836964214593,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1C28BFDFE520F081B6DA">
+				<name>Kabel 24_BCA Training</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin286</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8823143260373,-6.582855138721957,0 106.8826464046279,-6.583071500831729,0 106.8827094994879,-6.583223386821673,0 106.8827259689687,-6.583395662024373,0 106.8824938398056,-6.583594944538417,0 106.8824512527452,-6.584023221797786,0 106.8824420397534,-6.584339414264231,0 106.8823029375956,-6.584853517762148,0 106.8819868988817,-6.5852828232869,0 106.8815268416251,-6.585657534427924,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0582C999DC20F081B6DB">
+				<name>KABEL 24_CIMB NIAGA</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin308</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8622864495716,-6.570910410792875,0 106.8619233225387,-6.571174278970245,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="11AF901CAB20F081B6DB">
+				<name>Kabel 24_Hotel Neo</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin2211</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8825663303851,-6.583663524562848,0 106.8824100805554,-6.58398170736739,0 106.8823862385138,-6.584362375062504,0 106.8822576953661,-6.584899707111552,0 106.8826158241313,-6.584986331994274,0 106.8828734181963,-6.585111509592506,0 106.8833263414383,-6.58519179892445,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0C4942D42120F081B6DC">
+				<name>Kabel 24_NODE Besakih</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin625</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.890113492676,-6.586603893433148,0 106.8902359352867,-6.586607924629686,0 106.8903787380817,-6.586589710499523,0 106.890372249558,-6.586465494370503,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="00E9EA021020F081B6DD">
+				<name>Kabel 24_Node Udayana</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin325</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8897596907801,-6.584325299337293,0 106.8897992738241,-6.584264807068831,0 106.8899143994151,-6.584246600434813,0 106.8900339622323,-6.584223527477889,0 106.8900519459133,-6.584099078275413,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1472E842A720F081B6DD">
+				<name>Kabel 24_Office Highland Golf</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1614</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8784955274461,-6.583451203849164,0 106.8785506963339,-6.58361157976957,0 106.8784069473391,-6.584134035375645,0 106.8777538392283,-6.583993394322295,0 106.8775520494537,-6.583977783318346,0 106.8771730346999,-6.584162451899045,0 106.8771609986922,-6.584232686342651,0 106.8771109344859,-6.584256442169738,0 106.8770776384554,-6.58438096718937,0 106.8768575625087,-6.584751223564827,0 106.8763756152023,-6.584629934749967,0 106.8761569668273,-6.584643822018422,0 106.8761336612812,-6.584951410649068,0 106.8762425257852,-6.585061681550364,0 106.8762516204376,-6.585221604465438,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="019ADCB0F520F081B6DE">
+				<name>Kabel 24_Pasar Besrsih</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin267</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.858645065418,-6.567796841126969,0 106.859142672861,-6.567709981044142,0 106.8593875232476,-6.567101804436641,0 106.8598569297473,-6.566286654984323,0 106.860262029463,-6.565864174061096,0 106.8607344475153,-6.565513982025371,0 106.8611996853124,-6.565330851165443,0 106.8615590910148,-6.565175335490163,0 106.8620091846223,-6.564930033361157,0 106.8623465402651,-6.564576339243945,0 106.8626829201673,-6.563942402001868,0 106.8626928438449,-6.563364442032889,0 106.8626877075201,-6.562056965883647,0 106.8627066898065,-6.561341579706184,0 106.8625306624899,-6.561325506845734,0 106.862506739757,-6.56098663260221,0 106.8627053960392,-6.560992443698877,0 106.8627187333046,-6.560364018865345,0 106.8628518607975,-6.560353549030275,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="123A5FC84520F081B6DE">
+				<name>KABEL 24_POLE BGH</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8667201233317,-6.583134579079369,0 106.8663005852227,-6.583025352062717,0 106.8659796681019,-6.582817620357789,0 106.8656753846143,-6.582420884954895,0 106.8653810908049,-6.582048956214583,0 106.8650673283337,-6.581868738578929,0 106.8651257138927,-6.58173462977212,0 106.86521849093,-6.581791054896,0 106.8652525091692,-6.581760677839186,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="054BA18A5320F081B6DF">
+				<name>Kabel 24_SAKURA</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin2312</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8841648933639,-6.581417586765678,0 106.8844414021516,-6.58092789465092,0 106.8848733072149,-6.580072695354951,0 106.8852180739005,-6.579332529136546,0 106.8852106939263,-6.579219477296688,0 106.8852824374857,-6.579167718545781,0 106.8853643006918,-6.579234372974382,0 106.8866415013884,-6.57986412339552,0 106.8870532705679,-6.579165124794905,0 106.8872423565371,-6.579267677427017,0 106.8873257745598,-6.579324702486031,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1BC63E9A4020F081B6DF">
+				<name>Kabel 24_Taman Pasadena</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin2312</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8823196074312,-6.582864822733731,0 106.8824460982639,-6.582593808789077,0 106.882453513658,-6.582162819047171,0 106.8825278972751,-6.581966751958065,0 106.8827098775033,-6.581752118399152,0 106.8829710471774,-6.581671861924486,0 106.8835110608685,-6.581829564312066,0 106.8838484708879,-6.581879679784295,0 106.8840550329728,-6.581735122289103,0 106.8841735470466,-6.581411903580416,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0A208416AD20F081B6E0">
+				<name>KABEL 24_XL Pole Entrance</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1109</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8763761793653,-6.582403196116193,0 106.8765247699476,-6.58245949702611,0 106.8767708805829,-6.581798854365908,0 106.8769343621394,-6.581463132463224,0 106.8769977537884,-6.58131042484569,0 106.8770725496437,-6.58077810662,0 106.8771170207513,-6.580450143486282,0 106.8774244253371,-6.579768357779304,0 106.8774827508591,-6.579431815695277,0 106.8774486166694,-6.579198255860572,0 106.8770579045378,-6.578454592726059,0 106.876996947996,-6.578083857199331,0 106.8762704975161,-6.578103408140152,0 106.8757352999145,-6.578235200379898,0 106.8754250654145,-6.578237828813906,0 106.8751289809402,-6.578121303266001,0 106.8747924320953,-6.577828169940931,0 106.874625540935,-6.577496366692457,0 106.8744127068869,-6.576271308327726,0 106.8743791073256,-6.576230245497765,0 106.8743305641481,-6.576177314548276,0 106.8743199240164,-6.576164285371179,0 106.8743056653888,-6.576145361862284,0 106.8742076895654,-6.576108588736971,0 106.8741448048137,-6.576043828493408,0 106.8742647194522,-6.575944618530305,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1E379A240320F081B6E0">
+				<name>KABEL 36_BTS Room</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#m_ylw-pushpin116</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8763724674796,-6.582394269586386,0 106.876537525657,-6.58248148493816,0 106.8766633588172,-6.582114605348691,0 106.8768061000284,-6.581790729367295,0 106.8769035197387,-6.581833441309516,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0F2F8DB01120F081B6E1">
+				<name>KABEL 48_CCTV BGH</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin9150</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8667232614808,-6.583132642226573,0 106.8665313098338,-6.582910106875433,0 106.8663367106997,-6.582906797183742,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0334EBC31A20F081B6E2">
+				<name>KABEL 96_AEON</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1503</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8533742923817,-6.568146628434657,0 106.85519290714,-6.568109920060354,0 106.8565319092058,-6.568026542880721,0 106.8586719549015,-6.567799434505408,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1A2DC3BCD820F081B6E2">
+				<name>KABEL 96_AhPoong</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8465699688166,-6.566870481865504,0 106.8465945653412,-6.567098960339744,0 106.8460802210105,-6.568400488828046,0 106.8459708121327,-6.568957551391108,0 106.846037076507,-6.56930585419329,0 106.8462039264365,-6.569659625713676,0 106.8467310969992,-6.570014617614179,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="010DE4271120F081B6E3">
+				<name>KABEL 96_BGH</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1013</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8708278877917,-6.584251847644287,0 106.8700593887074,-6.584466658663285,0 106.8690533679403,-6.584540694562462,0 106.8684000457598,-6.584386454192679,0 106.8681040379023,-6.584232420943247,0 106.8676327133152,-6.583935768384754,0 106.8670823462348,-6.583322359907375,0 106.8667134939189,-6.583130555980096,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="196C47506B20F081B6E3">
+				<name>KABEL 96_BIKE TRACK</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin0012</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8553158510531,-6.568501067884148,0 106.8544280550188,-6.568477788272332,0 106.8534965280577,-6.568374043585943,0 106.8523917769217,-6.568168342965246,0 106.8502163648981,-6.56762830152677,0 106.8480562927035,-6.566931580970638,0 106.8474137689918,-6.566769879136224,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="047782D3E820F081B6E4">
+				<name>Kabel 96_Casablanca</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin423</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8560603362859,-6.574578846305841,0 106.8557935538368,-6.57446156435296,0 106.8546155536127,-6.574116485250647,0 106.8537023465642,-6.573960877335243,0 106.8524684130605,-6.574319614419652,0 106.8518385482124,-6.574629431407432,0 106.8519931193932,-6.574774304830394,0 106.8519231084356,-6.57485179811615,0 106.8516392217535,-6.574935141135287,0 106.8507516988742,-6.575304740718978,0 106.8503958151529,-6.575463930154739,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="16F00ADABC20F081B6E4">
+				<name>KABEL 96_HARRIS</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1003</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8475001084329,-6.566424706064241,0 106.8472007253204,-6.566236926945066,0 106.8473313977686,-6.5657009494458,0 106.8474825857295,-6.565272631591944,0 106.8476552937413,-6.564853892707561,0 106.8477229666466,-6.564741416952773,0 106.8477866205015,-6.564396568821858,0 106.847944768729,-6.564099741578388,0 106.8487949748068,-6.562389956751015,0 106.8497002903495,-6.560598870121288,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="009782113120F081B6E5">
+				<name>Kabel 96_HH JungleLand</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin1813</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8892432768638,-6.581840317733277,0 106.8897188441639,-6.581768930365383,0 106.8901197970977,-6.581918298629894,0 106.891418511008,-6.581747016945713,0 106.8915655866568,-6.581726936474561,0 106.8916612065439,-6.581165465413103,0 106.8919578135814,-6.580873499278628,0 106.8919835845617,-6.580421505234187,0 106.8916894375954,-6.579492650562394,0 106.8914023434795,-6.578977629858152,0 106.8913456047485,-6.578896039495325,0 106.8911520553509,-6.578635637047562,0 106.8905173048244,-6.577866176304852,0 106.8903771891969,-6.577554261921914,0 106.8902238480353,-6.576536730920802,0 106.8901966194557,-6.576330642089608,0 106.8902294518812,-6.575936275481286,0 106.8906680943332,-6.575551391268673,0 106.8907148005148,-6.575441395437257,0 106.8906995340187,-6.575326023258759,0 106.8905253985329,-6.57505412694939,0 106.8905029125444,-6.574891291695052,0 106.8905265835475,-6.574792389473052,0 106.8908768976329,-6.574334091428777,0 106.8907541525683,-6.573845221168821,0 106.8906932193481,-6.573567947672593,0 106.8907566566247,-6.573331435960667,0 106.8909539305293,-6.573311964031604,0 106.8913554152132,-6.573448271226814,0 106.8923944190562,-6.574328614193171,0 106.8924032370048,-6.574166648023842,0 106.8932629172062,-6.574163038054644,0 106.8933314534076,-6.573954261907278,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="190773261C20F081B6E5">
+				<name>Kabel 96_IBM</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin527</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8622494482493,-6.570860090746147,0 106.8626700828586,-6.571687531497282,0 106.8627285357054,-6.572010146626723,0 106.8624430864117,-6.572208423012157,0 106.8623830124941,-6.572392759771333,0 106.8625940296599,-6.573078122944238,0 106.8625178662528,-6.573442219705932,0 106.861956967834,-6.574199860008692,0 106.8614462345422,-6.574614170238531,0 106.860723404355,-6.574927697878973,0 106.8608046537985,-6.575637543714237,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0D27F934E820F081B6E6">
+				<name>KABEL 96_MG</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin423</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8474228518137,-6.566770938907713,0 106.847042838391,-6.566670553942139,0 106.8468430318883,-6.566973459395115,0 106.8465683747824,-6.566862754296141,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="111E60D6DC20F081B6E6">
+				<name>KABEL 96_MG</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin0012</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8465840867047,-6.566874669692404,0 106.8464702026092,-6.566448216315962,0 106.8462159578515,-6.566513105392627,0 106.8461479018926,-6.566815829484565,0 106.8458279652219,-6.56673081690123,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0CFACAE36D20F081B6E7">
+				<name>KABEL 96_Nirwana</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin706</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8686978913326,-6.577883086108913,0 106.8685479578531,-6.577593201748666,0 106.8682690803164,-6.577181495921585,0 106.8680621158394,-6.577047805546305,0 106.8675272179104,-6.576737166936101,0 106.8664171528628,-6.576620873545307,0 106.8659871684457,-6.576429603631406,0 106.8655501445704,-6.576110216853526,0 106.8649014796916,-6.574860986180238,0 106.8646586946389,-6.57457882697535,0 106.8640888533517,-6.574312037243223,0 106.8639171350376,-6.574323615327804,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="15C1BA014C20F081B6E7">
+				<name>Kabel 96_Northridge</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1513</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8586406657077,-6.567801894925745,0 106.8599465822185,-6.568120874734321,0 106.8611319645564,-6.568893866026393,0 106.8616738247672,-6.569459728154689,0 106.8627291180834,-6.571046052730352,0 106.8630844092528,-6.571479762413165,0 106.8633475990431,-6.572057771170057,0 106.8635068077145,-6.572739378059798,0 106.8633933412296,-6.573108912264113,0 106.8633796244125,-6.573370305550414,0 106.8642916476037,-6.57410659349011,0 106.8653973889983,-6.574795325686082,0 106.8657775461835,-6.575958616135339,0 106.8668137542951,-6.576409121841942,0 106.8676969101542,-6.576546499714281,0 106.8684594772362,-6.577050843247786,0 106.8688509734575,-6.577672762229173,0 106.8688735316145,-6.578350320334106,0 106.8680554441151,-6.579971833974088,0 106.8672013934718,-6.581223017076001,0 106.8670211557875,-6.582004167057636,0 106.8671985812703,-6.582750695303438,0 106.8674010906977,-6.583385523117452,0 106.8681264241647,-6.584050913009955,0 106.8688322313027,-6.584311841491604,0 106.8698541797575,-6.584241847251746,0 106.8713241690852,-6.583497224596526,0 106.8728438553289,-6.582141283100229,0 106.8736791066862,-6.581816545741499,0 106.8747869008107,-6.581681989018643,0 106.8765813202457,-6.582202599299076,0 106.8768027786688,-6.58177233317624,0 106.8768974902389,-6.581829728209514,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0AAFCF089E20F081B6E8">
+				<name>KABEL 96_Northridge Golf</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin706</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8667157519098,-6.58313194087491,0 106.8665605822659,-6.582873695323216,0 106.8666748755037,-6.582780717732922,0 106.8668160841525,-6.582548922054377,0 106.8667701294659,-6.582149516337208,0 106.8667965524475,-6.58167702927267,0 106.8668864945497,-6.581329155275492,0 106.8671091381469,-6.580918929882119,0 106.8673290805683,-6.580606284186944,0 106.8678781727922,-6.579839517189005,0 106.8684589716213,-6.579062279444115,0 106.8686516183843,-6.578688683079585,0 106.8686864546183,-6.578426032234052,0 106.8686864965576,-6.577873310757288,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="14D7EC267820F081B6E8">
+				<name>Kabel 96_ODC</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin527</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8763176557892,-6.582288535585563,0 106.8785170146827,-6.583445659823173,0 106.8825035746135,-6.583613537652317,0 106.8845452613269,-6.58357114156199,0 106.8854615618189,-6.582827253859053,0 106.8859492052473,-6.582019974939862,0 106.8862948634525,-6.581357534198905,0 106.8868904501909,-6.581025884196869,0 106.8875814316133,-6.580900889033419,0 106.8882841055092,-6.581032181739997,0 106.8886658987405,-6.581222386801295,0 106.8889708128208,-6.581496119108346,0 106.8892220126441,-6.581752297831071,0 106.8897591656574,-6.584323271079136,0 106.889646716726,-6.584463872779704,0 106.8900991979347,-6.586522133461958,0 106.8903301404016,-6.587349379241378,0 106.8908811037289,-6.588108157473494,0 106.8914443317218,-6.588679659928307,0 106.8916077646618,-6.588931425435921,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0CC7E53C7420F081B6E9">
+				<name>Kabel 96_ODC Mini Plaza 1</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin527</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8638253218427,-6.57432531354913,0 106.8638295651608,-6.574066218280632,0 106.8630773479316,-6.573389433492515,0 106.8628958794131,-6.572135926371324,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0D1002288F20F081B6EA">
+				<name>KABEL 96_Parayangan</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin2114</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8763864341857,-6.582401288057716,0 106.8757932682363,-6.582167133953611,0 106.8749773920728,-6.581953614934367,0 106.87429555725,-6.581924054934091,0 106.8736246808999,-6.582075220225956,0 106.8728804462125,-6.582457626412091,0 106.8720493141677,-6.583138355405551,0 106.8715892163865,-6.583594525241997,0 106.8708111551137,-6.584260289593659,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="18293F283920F081B6EA">
+				<name>KABEL 96_PERTAMEDIKA</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin604</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8474914917115,-6.566425470290007,0 106.8489257670095,-6.566930173443194,0 106.8506341055732,-6.567432620340013,0 106.8529155104955,-6.567966383021004,0 106.8533905376441,-6.568103055227943,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0E3A7D700920F081B6EB">
+				<name>Kabel 96_POLE XL HILLTOP</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin423</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8561156422551,-6.574604798982003,0 106.855998287785,-6.574526197381296,0 106.856124502973,-6.574123052852013,0 106.8560348810384,-6.574079143673904,0 106.8563913113997,-6.573539746481795,0 106.8564488148879,-6.573241921270447,0 106.8563908840243,-6.572929559983063,0 106.8562591514231,-6.572548194864008,0 106.8560351644046,-6.572271986391563,0 106.8557826047139,-6.572036185416282,0 106.8559098150967,-6.571880954924362,0 106.8561919363401,-6.571801555623544,0 106.8565893930948,-6.571929654137541,0 106.8568490976751,-6.572152511923047,0 106.8571735652203,-6.572538830573519,0 106.8573479363121,-6.572785562344617,0 106.8573294100444,-6.572880036599906,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="14264C3A4A20F081B6EB">
+				<name>KABEL 96_SICC</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin423</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8465707039038,-6.566873742841842,0 106.8468104811769,-6.566973480619939,0 106.8469030466958,-6.56683613061411,0 106.8469914699841,-6.566696678920152,0 106.8474334898988,-6.566736541947974,0 106.8475077913649,-6.56642727300858,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="036F32DF2620F081B6EC">
+				<name>KABEL 96_SPBU</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin706</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8622836351375,-6.570909736855259,0 106.8615876392862,-6.569833124491162,0 106.8612228356035,-6.569349442187661,0 106.8608098967042,-6.568926603072942,0 106.8600553154542,-6.568461720722799,0 106.8593363945052,-6.568242813248435,0 106.8583537037758,-6.568181263064267,0 106.8571207523652,-6.568310882192945,0 106.856074534721,-6.568432215722829,0 106.8553117014725,-6.568510374097893,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="1FCFDDCFBB20F081B6EC">
+				<name>Kabel 96_Venesia</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin817</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8768796990284,-6.581773061878992,0 106.8767786935727,-6.582142114906056,0 106.876858068376,-6.582188189056578,0 106.8768268124693,-6.582325439568472,0 106.8782132635302,-6.582810684067299,0 106.8793009339482,-6.58302998782515,0 106.8805958743813,-6.583097862730404,0 106.8820234964199,-6.583097318074153,0 106.8822107055534,-6.583052688924926,0 106.8823133771919,-6.582866135958216,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="080103B66820F081B6ED">
+				<name>Kabel 96_Yunani</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin718</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8560618018603,-6.574592070020714,0 106.8565899795913,-6.574802794630883,0 106.8570667670529,-6.574889344606245,0 106.8572985466204,-6.574865825647299,0 106.8573692366778,-6.574985420789792,0 106.857476483869,-6.574982220729797,0 106.8591461862779,-6.57503259963179,0 106.8607350081286,-6.574984556870493,0 106.8615368586167,-6.574645771101268,0 106.8619761333187,-6.574245831679339,0 106.8625571087931,-6.573472195986868,0 106.8626478410271,-6.573081165544156,0 106.8625248332371,-6.572723676238297,0 106.8624304230249,-6.572417619965563,0 106.8624756543601,-6.572229817369271,0 106.8627616987427,-6.572041311535678,0 106.8627209235522,-6.571686359091951,0 106.8625418387482,-6.571369040711828,0 106.8622918796353,-6.570880500887335,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="03426BBCEC20F081B6EE">
+				<name>Kabel DropCore</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin2012</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8652209540786,-6.58172393210173,0 106.865115117381,-6.581686657606086,0 106.8652267134494,-6.581474903208884,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="120497033920F081B6EE">
+				<name>Kabel FM</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1514</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8466026007025,-6.566828200947349,0 106.8465038979939,-6.567323909713024,0 106.8461991373625,-6.567221050952601,0 106.8460460262545,-6.5672699861479,0 106.845859246306,-6.567469982197693,0 106.845712851431,-6.567177840046106,0 106.8453858720783,-6.567050266894859,0 106.8451914513672,-6.567093363957433,0 106.8450843854948,-6.567412670938453,0 106.8447760924354,-6.567667208029303,0 106.8446426677548,-6.567690084023091,0 106.8434930346153,-6.567274965946715,0 106.8436600324176,-6.566756891918422,0 106.8438324775383,-6.566662580750426,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="0621F117F020F081B6EF">
+				<name>Kabel FM _ QLTrimitra</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1122</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8621366181723,-6.571026578895392,0 106.8622577324727,-6.571204850027949,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="18800450AF20F081B6EF">
+				<name>Kabel JLM</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin1514</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8467546257165,-6.569982943225496,0 106.846797486067,-6.569240666314489,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="04CE2581C520F081B6F0">
+				<name>Kabel12_Pole TSEL Kedaton</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin268</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8916116946629,-6.588945862570741,0 106.8915315262985,-6.588810094034804,0 106.8914611777422,-6.588733927522086,0 106.8915796646517,-6.588646087564188,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="150E6388B120F081B6F0">
+				<name>KABEL96_PLAZA 1</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin706</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.8639193691945,-6.574319202093973,0 106.8638983767172,-6.57413888463226,0 106.863524268386,-6.573959681766846,0 106.8633632601344,-6.573803388535979,0 106.863095235045,-6.573419725453928,0 106.8628775014221,-6.572328783246064,0 106.8628167625345,-6.571992595329658,0 106.8627482084709,-6.571677219643688,0 106.8625793554499,-6.571338522526751,0 106.8622920998987,-6.570909066961226,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

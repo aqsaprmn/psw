@@ -10,7 +10,12 @@
     <meta name="author" content="">
 
 
-    <title>SB Admin 2 - <?= $title; ?></title>
+    <title>Barang Hilang - <?= $title; ?></title>
+
+    <!-- My Style -->
+    <link href="<?= base_url('assets') ?>/bootstrap5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="<?= base_url('assets') ?>/css/main.css">
+
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url('assets') ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -30,7 +35,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fab fa-codepen"></i>
                 </div>
@@ -40,52 +45,75 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Administration
-            </div>
+            <?php
+            $role_id = $this->session->userdata('role_id');
+            $query = "SELECT `user_menu`.`id` AS `id_menu` , `user_menu`.`menu` , `user_access_menu`.`role_id` , `user_access_menu`.`menu_id`
+                          FROM `user_menu` 
+                          JOIN `user_access_menu`
+                            ON `user_menu`.`id` = `user_access_menu`.`menu_id`
+                         WHERE `user_access_menu`.`role_id` = $role_id
+                            ";
 
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('content') ?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
-            </li>
+            $menu = $this->db->query($query)->result_array();
+            ?>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <div class="sidebar-heading">
-                User
-            </div>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <!-- <h6 class="collapse-header">Custom Components:</h6> -->
-                        <a class="collapse-item" href="<?= base_url('components') ?>">My Profile</a>
-                    </div>
+            <?php foreach ($menu as $m) : ?>
+                <div class="sidebar-heading">
+                    <?= $m['menu']; ?>
                 </div>
-            </li>
 
-            <!-- Nav Item - Pages Collapse Menu -->
+                <?php
+                $menuId = $m['id_menu'];
+                $queryMenuGo = "SELECT * FROM user_menu_go WHERE menu_id = $menuId";
 
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-            </li>
+                $menuGo = $this->db->query($queryMenuGo)->result_array();
+                ?>
+
+                <?php foreach ($menuGo as $Mg) : ?>
+                    <?php if ($Mg['sub_menu_active'] == 0) : ?>
+                        <!-- Nav Item - Dashboard -->
+                        <li class="nav-item">
+                            <a class="nav-link py-2" href="<?= base_url() ?><?= $Mg['url']; ?>">
+                                <i class="<?= $Mg['icon']; ?>"></i>
+                                <span><?= $Mg['title']; ?></span></a>
+                        </li>
+                        <!-- Divider -->
+                        <!-- <hr class="sidebar-divider"> -->
+                    <?php else : ?>
+                        <!-- Nav Item - Pages Collapse Menu -->
+                        <li class="nav-item">
+                            <a class="nav-link py-2 collapsed" href="#" data-toggle="collapse" data-target="#subMenu" aria-expanded="true" aria-controls="subMenu">
+                                <i class="<?= $Mg['icon']; ?>"></i>
+                                <span><?= $Mg['title']; ?></span>
+                            </a>
+
+                            <div id="subMenu" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                                <div class="bg-white py-2 collapse-inner rounded">
+                                    <!-- <h6 class="collapse-header">Custom Components:</h6> -->
+                                    <?php
+                                    $menuGoId = $Mg['id'];
+                                    $querSubMenuGo = "SELECT * FROM user_sub_menu_go WHERE menu_go_id = $menuGoId";
+                                    $subMenuGo = $this->db->query($querSubMenuGo)->result_array();
+                                    ?>
+                                    <?php foreach ($subMenuGo as $Smg) : ?>
+                                        <a class="collapse-item" href="<?= base_url() ?><?= $Smg['url']; ?>"><i class="<?= $Smg['icon']; ?>"></i> <span> <?= $Smg['title']; ?></span></a>
+                                    <?php endforeach; ?>
+                                </div>
+                            </div>
+
+                        </li>
+                    <?php endif; ?>
+
+                <?php endforeach; ?>
+                <hr class="sidebar-divider">
+
+            <?php endforeach; ?>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+                <a class="nav-link py-2" href="#" data-toggle="modal" data-target="#logoutModal">
                     <!-- <i class="fas fa-fw fa-table"></i> -->
                     <i class="fas fa-fw fa-sign-out-alt"></i>
                     <span>Log Out</span>
