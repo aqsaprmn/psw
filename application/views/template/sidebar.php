@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
 
-    <title>Barang Hilang - <?= $title; ?></title>
+    <title>BHT - <?= $title; ?></title>
 
     <!-- My Style -->
     <link href="<?= base_url('assets') ?>/bootstrap5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -39,7 +39,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fab fa-codepen"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Aqs Admin<sup>1st</sup></div>
+                <div class="sidebar-brand-text mx-3">BHT<sup>1st</sup></div>
             </a>
 
             <!-- Divider -->
@@ -74,7 +74,7 @@
                 <?php foreach ($menuGo as $Mg) : ?>
                     <?php if ($Mg['sub_menu_active'] == 0) : ?>
                         <!-- Nav Item - Dashboard -->
-                        <li class="nav-item">
+                        <li class="nav-item  <?= ($title == $Mg['title']) ? 'active' : ''; ?>">
                             <a class="nav-link py-2" href="<?= base_url() ?><?= $Mg['url']; ?>">
                                 <i class="<?= $Mg['icon']; ?>"></i>
                                 <span><?= $Mg['title']; ?></span></a>
@@ -83,7 +83,7 @@
                         <!-- <hr class="sidebar-divider"> -->
                     <?php else : ?>
                         <!-- Nav Item - Pages Collapse Menu -->
-                        <li class="nav-item">
+                        <li class="nav-item subMenu">
                             <a class="nav-link py-2 collapsed" href="#" data-toggle="collapse" data-target="#subMenu" aria-expanded="true" aria-controls="subMenu">
                                 <i class="<?= $Mg['icon']; ?>"></i>
                                 <span><?= $Mg['title']; ?></span>

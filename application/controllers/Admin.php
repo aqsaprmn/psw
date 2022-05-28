@@ -25,7 +25,7 @@ class Admin extends CI_Controller
 
     public function akses()
     {
-        $data['title'] = 'Peran';
+        $data['title'] = 'Role Akses';
         $data['user'] = $this->M_User->getDataW('user', ['email' => $this->session->userdata('email')]);
 
         $data['menu'] = $this->M_User->getDataWAll('user_menu', ['id !=' => 1]);

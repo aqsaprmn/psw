@@ -470,7 +470,6 @@ class User extends CI_Controller
         $userEmail = $this->session->userdata('email');
         $data['title'] = 'Akses - Blok';
         $data['user'] = $this->M_User->getDataW('user', ['email' => $userEmail]);
-        $data['script'] = "<script src=' " . base_url('assets') . "/js/custom.js'></script>";
 
         $this->load->view('template/sidebar', $data);
         $this->load->view('template/topbar');

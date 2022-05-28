@@ -14,16 +14,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <button id="tambah" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#barangHilangModal">Tambah</button>
 
-    <a class="btn btn-primary mb-3" href="<?= base_url() ?>/earth/AUDIT SENTUL CITY_rev2.kml">Google Earth</a>
-
     <table class="table text-black table-bordered table-striped table-hover">
         <thead>
             <tr>
                 <th class="text-center" scope="col">#</th>
                 <th class="text-center" scope="col">Nama Barang</th>
                 <th class="text-center" scope="col">Kategori</th>
-                <th class="text-center" scope="col">Keterangan</th>
-                <th class="text-center" scope="col">Foto</th>
+                <th class="text-center" scope="col">Tanggal Hilang</th>
+                <th class="text-center" scope="col">Gambar</th>
+                <th class="text-center" scope="col">Status</th>
                 <th class="text-center" scope="col">Aksi</th>
             </tr>
         </thead>
