@@ -8,10 +8,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <h4 class="mb-0"><?= $title; ?></h4>
     </div>
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <small class="mb-0 text-gray-700">Tambah Barang Hilang</small>
+        <small class="mb-0 text-gray-700">Tambah Barang Temuan</small>
     </div>
 
-    <?= form_open_multipart('barang/tambahBarangHilang'); ?>
+    <?= form_open_multipart('barang/tambahBarangTemuan'); ?>
     <div class="mb-3 row">
         <label for="nama" class="col-sm-2 col-form-label">Nama Barang</label>
         <div class="col-sm-8 ">
@@ -27,10 +27,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <option value="<?= $kat['keterangan']; ?>"><?= $kat['keterangan']; ?></option>
                 <?php endforeach; ?>
             </select>
+            <?= form_error('kategori', '<small class="text-danger pl-3">', '</small>') ?>
         </div>
     </div>
     <div class="mb-3 row">
-        <label for="tanggal" class="col-sm-2 col-form-label">Tanggal Hilang</label>
+        <label for="tanggal" class="col-sm-2 col-form-label">Tanggal Temuan</label>
         <div class="col-sm-8">
             <input type="datetime-local" class="form-control ml-3" name="tanggal" id="tanggal" value="<?= set_value('tanggal'); ?>">
             <?= form_error('tanggal', '<small class="text-danger pl-3">', '</small>') ?>
@@ -60,7 +61,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <label class="col-sm-2 col-form-label"></label>
         <div class="col-sm-8 px-4">
             <button type="submit" class="btn btn-primary">Tambah</button>
-            <a href="<?= base_url('barang/barangHilang') ?>" class="btn btn-danger ">Batal</a>
+            <a href="<?= base_url('barang/barangTemuan') ?>" class="btn btn-danger ">Batal</a>
         </div>
     </div>
     </form>

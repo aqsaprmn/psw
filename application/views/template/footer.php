@@ -47,6 +47,9 @@
 <script src="<?= base_url('assets') ?>/bootstrap5/js/bootstrap.min.js"></script>
 <script src="<?= base_url('assets') ?>/js/custom.js"></script>
 
+<!-- Sweetalert -->
+<script src="<?= base_url('assets') ?>/vendor/sweetalert/dist/sweetalert2.all.min.js"></script>
+
 <!-- Bootstrap core JavaScript-->
 <!-- <script src="<?= base_url('assets') ?>/vendor/jquery/jquery.min.js"></script>
 <script src="<?= base_url('assets') ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
@@ -62,8 +65,6 @@
     echo $script;
 } ?>
 
-<!-- Sweetalert -->
-<script src="<?= base_url('assets') ?>/vendor/sweetalert/dist/sweetalert2.all.min.js"></script>
 
 </body>
 

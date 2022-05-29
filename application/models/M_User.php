@@ -57,4 +57,12 @@ class M_User extends CI_Model
     {
         return $this->db->get_where($table, $where)->num_rows();
     }
+
+    public function getDataAllDescLim($table, $column, $order, $limit)
+    {
+        $this->db->order_by($column, $order);
+        $this->db->limit($limit);
+        $data = $this->db->get($table)->result_array();
+        return $data;
+    }
 }
