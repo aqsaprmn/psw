@@ -61,9 +61,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <label for="status" class="col-sm-2 col-form-label">Status</label>
         <div class="col-sm-8 ms-3">
             <select name="status" id="status" class="form-select">
-                <option value="Y">Barang Belum Kembali</option>
-                <option value="P">Sedang Diproses</option>
-                <option value="N">Barang Sudah Kembali</option>
+                <option <?= ($barang['status'] == 'Y') ? "selected" : ""; ?> value="Y">Barang Belum Kembali</option>
+                <option <?= ($barang['status'] == 'P') ? "selected" : ""; ?> value="P">Sedang Diproses</option>
+                <option <?= ($barang['status'] == 'N') ? "selected" : ""; ?> value="N">Barang Sudah Kembali</option>
             </select>
         </div>
     </div>
