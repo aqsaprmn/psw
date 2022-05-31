@@ -1,5 +1,5 @@
 const divHilang = document.getElementById("barangHilang");
-let no = 1;
+
 if (divHilang) {
 	const tblHilang = divHilang.querySelector("table.table");
 	const tblTbody = tblHilang.querySelector("tBody");
@@ -11,13 +11,12 @@ if (divHilang) {
 
 	function readBarangHilang() {
 		const xhr = new XMLHttpRequest();
-
+		let no = 1;
 		xhr.open("POST", urlAll);
 		xhr.send();
 		xhr.addEventListener("load", function () {
 			if (xhr.status == 200) {
 				const jsonRes = JSON.parse(xhr.response)["barangHilang"];
-				console.log(jsonRes);
 				let trHilang = ``;
 				for (let i = 0; i < jsonRes.length; i++) {
 					const jsonResI = jsonRes[i];
@@ -48,7 +47,6 @@ if (divHilang) {
 						jsonResI["kode"]
 					}" class="btn btn-danger delete">Delete</button></td>
                     </tr>
-                        
                     `;
 
 					no++;

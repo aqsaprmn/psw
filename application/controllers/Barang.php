@@ -57,20 +57,16 @@ class Barang extends CI_Controller
                 $upGambar1 = $this->upload->data('file_name');
             } else {
                 $error = array('error' => $this->upload->display_errors());
-                $this->load->view('template/sidebar', $data);
-                $this->load->view('template/topbar', $data);
-                $this->load->view('barang/tambahbaranghilang');
-                $this->load->view('template/footer');
+                $this->load->view('barang/errorupload', $error);
+                die;
             }
 
             if ($this->upload->do_upload('gambar2')) {
                 $upGambar2 = $this->upload->data('file_name');
             } else {
                 $error = array('error' => $this->upload->display_errors());
-                $this->load->view('template/sidebar', $data);
-                $this->load->view('template/topbar', $data);
-                $this->load->view('barang/tambahbaranghilang');
-                $this->load->view('template/footer');
+                $this->load->view('barang/errorupload', $error);
+                die;
             }
 
             $kdBarangLast = $this->M_User->getDataAllDescLim('br_barang_hilang', 'id', 'Desc', 1);
@@ -152,15 +148,23 @@ class Barang extends CI_Controller
         $kode = $this->input->post('kode', true);
 
         $brhDelete = $this->M_User->deletetData('br_barang_hilang', ['kd_brh' => $kode]);
+        $brpDelete = $this->M_User->deletetData('br_barang_pengguna', ['kd_br' => $kode]);
 
-        if ($brhDelete > 0) {
-            $data['msg'] = [
-                'text' => "Barang dengan kode " . $kode . " Berhasil Dihapus",
-                'icon' => "success"
-            ];
+        if ($brpDelete > 0) {
+            if ($brhDelete > 0) {
+                $data['msg'] = [
+                    'text' => "Barang dengan kode " . $kode . " Berhasil Dihapus",
+                    'icon' => "success"
+                ];
+            } else {
+                $data['msg'] = [
+                    'text' => "Barang dengan kode " . $kode . " Gagal Dihapus Di Table 'br_barang_hilang'",
+                    'icon' => "warning"
+                ];
+            }
         } else {
             $data['msg'] = [
-                'text' => "Barang dengan kode " . $kode . " Gagal Dihapus",
+                'text' => "Barang dengan kode " . $kode . " Gagal Dihapus Di Table 'br_barang_hilang' & 'br_barang_pengguna'",
                 'icon' => "warning"
             ];
         }
@@ -196,13 +200,52 @@ class Barang extends CI_Controller
         // $tgl_hilang .= " " . $tanggal[1];
 
         $data['tgl_hilang'] = ['tgl' => $tanggal];
+        $data['kode'] = ['kode' => $kode];
+
+        $this->form_validation->set_rules('nama', 'Nama Barang', 'required|trim');
+        $this->form_validation->set_rules('tanggal', 'Tanggal', 'required|trim');
+        $this->form_validation->set_rules('keterangan', 'Keterangan', 'required|trim');
 
         if ($this->form_validation->run() == false) {
             $this->load->view('template/sidebar', $data);
             $this->load->view('template/topbar', $data);
-            $this->load->view('barang/baranghilangedit');
+            $this->load->view('barang/baranghilangedit', $data);
             $this->load->view('template/footer', $data);
         } else {
+            $nama = htmlspecialchars(trim($this->input->post('nama', true)));
+            $kategori = htmlspecialchars(trim($this->input->post('kategori', true)));
+            $tanggal = htmlspecialchars(trim($this->input->post('tanggal', true)));
+            $keterangan = htmlspecialchars(trim($this->input->post('keterangan', true)));
+
+            $cekDataBrh = $this->M_User->cekDataAvai('br_barang_hilang', ['nama_brh' => $nama, 'keterangan' => $keterangan]);
+
+            if ($cekDataBrh > 0) {
+                $cekDataBrp = $this->M_User->cekDataAvai('br_barang_pengguna', ['user_id' => $data['user']['id'], 'kd_br' => $kode]);
+                if ($cekDataBrp > 0) {
+                }
+            }
+
+            $config['upload_path'] = './assets/baranghilang';
+            $config['allowed_types'] = 'jpeg|jpg|png';
+            $config['max_size'] = 5000;
+
+            $this->load->library('upload', $config);
+
+            if ($this->upload->do_upload('gambar1')) {
+                $upGambar1 = $this->upload->data('file_name');
+            } else {
+                $error = array('error' => $this->upload->display_errors());
+                $this->load->view('barang/errorupload', $error);
+                die;
+            }
+
+            if ($this->upload->do_upload('gambar2')) {
+                $upGambar2 = $this->upload->data('file_name');
+            } else {
+                $error = array('error' => $this->upload->display_errors());
+                $this->load->view('barang/errorupload', $error);
+                die;
+            }
         }
     }
 

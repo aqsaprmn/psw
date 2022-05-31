@@ -51,7 +51,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </div>
     <div class="mb-3 row">
-        <label for="keterangan" class="col-sm-2 col-form-label">Keterangan</label>
+        <label for="keterangan" class="col-sm-2 col-form-label">Keterangan/Rincian</label>
         <div class="col-sm-8 ">
             <input type="text" class="form-control ml-3" name="keterangan" id="keterangan" value="<?= set_value('keterangan'); ?>">
             <?= form_error('keterangan', '<small class="text-danger pl-3">', '</small>') ?>

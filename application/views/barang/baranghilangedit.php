@@ -11,7 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <small class="mb-0 text-gray-700">Edit Barang Hilang</small>
     </div>
 
-    <?= form_open_multipart('barang/tambahBarangHilang'); ?>
+    <?= form_open_multipart('barang/barangHilangEdit/' . $kode['kode']); ?>
     <div class="mb-3 row">
         <label for="nama" class="col-sm-2 col-form-label">Nama Barang</label>
         <div class="col-sm-8 ">
@@ -39,19 +39,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="mb-3 row">
         <label for="gambar1" class="col-sm-2 col-form-label">Gambar 1</label>
         <div class="col-sm-8 ">
-            <input required type="file" class="form-control ml-3 mb-2" name="gambar1" id="gambar1">
+            <input type="file" class="form-control ml-3 mb-2" name="gambar1" id="gambar1">
             <img class="px-3" src="<?= base_url('assets/baranghilang/') . $barang['gambar1'] ?>" style="width:240px" alt="">
         </div>
     </div>
     <div class="mb-3 row">
         <label for="gambar2" class="col-sm-2 col-form-label">Gambar 2</label>
         <div class="col-sm-8 ">
-            <input required type="file" class="form-control ml-3 mb-2" name="gambar2" id="gambar2">
+            <input type="file" class="form-control ml-3 mb-2" name="gambar2" id="gambar2">
             <img class="px-3" src="<?= base_url('assets/baranghilang/') . $barang['gambar2'] ?>" style="width:240px" alt="">
         </div>
     </div>
     <div class="mb-3 row">
-        <label for="keterangan" class="col-sm-2 col-form-label">Keterangan</label>
+        <label for="keterangan" class="col-sm-2 col-form-label">Keterangan/Rincian</label>
         <div class="col-sm-8 ">
             <input type="text" class="form-control ml-3" name="keterangan" id="keterangan" value="<?= $barang['keterangan']; ?>">
             <?= form_error('keterangan', '<small class="text-danger pl-3">', '</small>') ?>
@@ -70,7 +70,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="row">
         <label class="col-sm-2 col-form-label"></label>
         <div class="col-sm-8 px-4">
-            <button type="submit" class="btn btn-primary">Tambah</button>
+            <button type="submit" class="btn btn-primary">Simpan</button>
             <a href="<?= base_url('barang/barangHilang') ?>" class="btn btn-danger ">Batal</a>
         </div>
     </div>
