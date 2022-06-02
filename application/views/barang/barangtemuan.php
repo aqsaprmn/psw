@@ -20,7 +20,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <input id="keyword" type="text" class="form-control p-3" placeholder="Cari Barang ...">
         </div>
     </div>
-    <table class="table text-black table-bordered table-striped table-hover">
+    <table class="table text-black table-bordered" data-all="<?= base_url('barang/barangTemuanAll') ?>" data-hapus="<?= base_url('barang/barangTemuanDelete') ?>" data-edit="<?= base_url('barang/barangTemuanEdit') ?>">
         <thead>
             <tr>
                 <th class="text-center" scope="col">#</th>
