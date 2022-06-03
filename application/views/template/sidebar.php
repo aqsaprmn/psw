@@ -84,11 +84,10 @@
                     <?php else : ?>
                         <!-- Nav Item - Pages Collapse Menu -->
                         <li class="nav-item subMenu">
-                            <a class="nav-link py-2 collapsed" href="#" data-toggle="collapse" data-target="#subMenu" aria-expanded="true" aria-controls="subMenu">
+                            <a class="nav-link py-2 collapsed" href="#" data-toggle="collapse" aria-controls="subMenu">
                                 <i class="<?= $Mg['icon']; ?>"></i>
                                 <span><?= $Mg['title']; ?></span>
                             </a>
-
                             <div id="subMenu" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div class="bg-white py-2 collapse-inner rounded">
                                     <!-- <h6 class="collapse-header">Custom Components:</h6> -->

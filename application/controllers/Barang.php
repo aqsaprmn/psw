@@ -116,6 +116,7 @@ class Barang extends CI_Controller
 
     public function barangHilangAll()
     {
+        $id = $this->input->post('id', true);
         $key = htmlspecialchars(trim($this->input->post('keyword', true)));
 
         if ($key != '') {
@@ -141,6 +142,8 @@ class Barang extends CI_Controller
                     ON
                     br_barang_pengguna.user_id = user.id
                     WHERE 
+                    user.id = " . $id . "
+                    AND
                     br_barang_hilang.nama_brh LIKE '%" . $key . "%'
                     OR
                     br_barang_hilang.kategori LIKE '%" . $key . "%'
@@ -167,7 +170,9 @@ class Barang extends CI_Controller
                 br_barang_hilang.kd_brh = br_barang_pengguna.kd_br
                 INNER JOIN user
                 ON
-                br_barang_pengguna.user_id = user.id;";
+                br_barang_pengguna.user_id = user.id
+                WHERE
+                user.id = " . $id . ";";
         }
 
         $data['barangHilang'] = $this->db->query($query)->result_array();
@@ -434,6 +439,7 @@ class Barang extends CI_Controller
 
     public function barangTemuanAll()
     {
+        $id = $this->input->post('id', true);
         $key = htmlspecialchars(trim($this->input->post('keyword', true)));
 
         if ($key != '') {
@@ -459,6 +465,8 @@ class Barang extends CI_Controller
                     ON
                     br_barang_pengguna.user_id = user.id
                     WHERE 
+                    user.id = " . $id . "
+                    AND
                     br_barang_temuan.nama_brt LIKE '%" . $key . "%'
                     OR
                     br_barang_temuan.kategori LIKE '%" . $key . "%'
@@ -474,6 +482,7 @@ class Barang extends CI_Controller
                 br_barang_temuan.gambar2,
                 br_barang_temuan.keterangan,
                 br_barang_temuan.status,
+                user.id as id_user,
                 user.nama as nama_pemilik,
                 user.email,
                 user.gambar,
@@ -485,7 +494,9 @@ class Barang extends CI_Controller
                 br_barang_temuan.kd_brt = br_barang_pengguna.kd_br
                 INNER JOIN user
                 ON
-                br_barang_pengguna.user_id = user.id;";
+                br_barang_pengguna.user_id = user.id
+                WHERE
+                user.id = " . $id . ";";
         }
 
         $data['barangTemuan'] = $this->db->query($query)->result_array();
@@ -625,5 +636,23 @@ class Barang extends CI_Controller
                 redirect('barang/barangTemuan');
             }
         }
+    }
+
+    public function daftarBarangHilang()
+    {
+        $data['title'] = 'Daftar Barang Hilang';
+        $data['user'] = $this->M_User->getDataW('user', ['email' => $this->session->userdata('email')]);
+
+        $this->load->view('template/sidebar', $data);
+        $this->load->view('template/topbar', $data);
+        $this->load->view('barang/daftarbaranghilang', $data);
+        $this->load->view('template/footer');
+    }
+
+    public function daftarBarangHilangAll()
+    {
+        $this->M_User->getDataAll(
+            ''
+        );
     }
 }

@@ -20,7 +20,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </div>
     <div class="table-responsive">
-        <table class="table text-black table-bordered" data-all="<?= base_url('barang/barangHilangAll') ?>" data-hapus="<?= base_url('barang/barangHilangDelete') ?>" data-edit="<?= base_url('barang/barangHilangEdit') ?>">
+        <table class="table text-black table-bordered" data-all="<?= base_url('barang/barangHilangAll') ?>" data-hapus="<?= base_url('barang/barangHilangDelete') ?>" data-edit="<?= base_url('barang/barangHilangEdit') ?>" data-id="<?= $user['id']; ?>">
             <thead>
                 <tr>
                     <th class="text-center" scope="col">#</th>

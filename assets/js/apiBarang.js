@@ -7,7 +7,8 @@ if (divHilang) {
 	const urlAll = tblHilang.getAttribute("data-all");
 	const urlHapus = tblHilang.getAttribute("data-hapus");
 	const urlEdit = tblHilang.getAttribute("data-edit");
-	const keyword = divHilang.querySelector('#keyword');	
+	const keyword = divHilang.querySelector('#keyword');
+	const userid = tblHilang.getAttribute('data-id');
 
 	readBarangHilang();
 
@@ -19,9 +20,10 @@ if (divHilang) {
 
 		if (keyword != "") {
 			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-			xhr.send("keyword="+keyword);
+			xhr.send('id='+userid+"&keyword="+keyword);
 		} else {
-			xhr.send();
+			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+			xhr.send('id='+userid);
 		}
 		
 		xhr.addEventListener("load", function () {
@@ -189,6 +191,7 @@ else if (divTemuan) {
 	const urlHapus = tblTemuan.getAttribute("data-hapus");
 	const urlEdit = tblTemuan.getAttribute("data-edit");
 	const keyword = divTemuan.querySelector('#keyword');	
+	const userid = tblTemuan.getAttribute('data-id');
 
 	readBarangTemuan();
 
@@ -200,9 +203,10 @@ else if (divTemuan) {
 
 		if (keyword != "") {
 			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-			xhr.send("keyword="+keyword);
+			xhr.send('id='+userid+"&keyword="+keyword);
 		} else {
-			xhr.send();
+			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+			xhr.send('id='+userid);
 		}
 		
 		xhr.addEventListener("load", function () {
