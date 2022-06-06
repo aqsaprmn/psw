@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
-<div id="daftarbarangHilang" class="px-5 py-4 shadow text-black rounded-3" style="background-color: white;font-size: 0.9rem;">
+<div id="daftarbarangHilangAll" class="px-5 py-4 shadow text-black rounded-3" style="background-color: white;font-size: 0.9rem;">
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-1">
         <h4 class="mb-0"><?= $title; ?></h4>
@@ -19,7 +19,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </div>
     <div class="table-responsive">
-        <table class="table text-black table-bordered" data-all="<?= base_url('barang/barangHilangAll') ?>" data-hapus="<?= base_url('barang/barangHilangDelete') ?>" data-edit="<?= base_url('barang/barangHilangEdit') ?>">
+        <table class="table text-black table-bordered" data-all="<?= base_url('barang/daftarBarangHilangAll') ?>" data-hapus="<?= base_url('barang/barangHilangDelete') ?>" data-edit="<?= base_url('barang/barangHilangEdit') ?>" data-id="<?= $user['id'] ?>">
             <thead>
                 <tr>
                     <th class="text-center" scope="col">#</th>
@@ -27,7 +27,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <th class="text-center" scope="col">Kategori</th>
                     <th class="text-center" scope="col">Tanggal Hilang</th>
                     <th class="text-center" scope="col">Status</th>
-                    <th class="text-center" scope="col">Keterangan</th>
                     <th class="text-center" scope="col">Aksi</th>
                 </tr>
             </thead>

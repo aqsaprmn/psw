@@ -17,6 +17,12 @@ class Admin extends CI_Controller
 
         $data['script'] = '<script src="' . base_url('assets') . '/js/demo/chart-area-demo.js"></script><script src="' . base_url('assets') . '/js/demo/chart-pie-demo.js"></script><script src="' . base_url('assets') . '/js/demo/chart-bar-demo.js"></script>';
 
+
+        $data['brt'] = $this->db->select('COUNT(*)')->from('br_barang_temuan')->get()->row_array();
+        $data['brh'] = $this->db->select('COUNT(*)')->from('br_barang_hilang')->get()->row_array();
+        $data['bru'] = $this->db->select('COUNT(*)')->from('user')->where(['id!=' => 1])->get()->row_array();
+        $data['brp'] = $this->db->select('COUNT(*)')->from('v_br_barang')->get()->row_array();
+
         $this->load->view('template/sidebar', $data);
         $this->load->view('template/topbar');
         $this->load->view('admin/dashboard', $data);

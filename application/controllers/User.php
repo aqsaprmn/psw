@@ -60,7 +60,7 @@ class User extends CI_Controller
                     if ($userLogin['role_id'] == 1) {
                         redirect(base_url('admin'));
                     } else {
-                        redirect(base_url('member'));
+                        redirect(base_url('barang/daftarbaranghilang'));
                     }
                 } else {
                     $this->session->set_flashdata('message',  '

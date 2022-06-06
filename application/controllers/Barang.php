@@ -94,7 +94,8 @@ class Barang extends CI_Controller
 
             $data2 = [
                 'user_id' => $data['user']['id'],
-                'kd_br' => $kdBrNow
+                'kd_br' => $kdBrNow,
+                'date' => date('Y-m-d H:i:s')
             ];
 
             $addTblBrh = $this->M_User->insertData('br_barang_hilang', $data1);
@@ -116,63 +117,22 @@ class Barang extends CI_Controller
 
     public function barangHilangAll()
     {
-        $id = $this->input->post('id', true);
+        $data['user'] = $this->M_User->getDataW('user', ['email' => $this->session->userdata('email')]);
+        $id = $data['user']['id'];
         $key = htmlspecialchars(trim($this->input->post('keyword', true)));
 
         if ($key != '') {
             $query = "SELECT
-                    br_barang_hilang.kd_brh as kode,
-                    br_barang_hilang.nama_brh as nama_barang,
-                    br_barang_hilang.kategori,
-                    br_barang_hilang.tgl_hilang as tanggal_hilang,
-                    br_barang_hilang.gambar1,
-                    br_barang_hilang.gambar2,
-                    br_barang_hilang.keterangan,
-                    br_barang_hilang.status,
-                    user.nama as nama_pemilik,
-                    user.email,
-                    user.gambar,
-                    user.alamat,
-                    user.no_telp
-                    FROM br_barang_hilang
-                    INNER JOIN br_barang_pengguna
-                    ON
-                    br_barang_hilang.kd_brh = br_barang_pengguna.kd_br
-                    INNER JOIN user
-                    ON
-                    br_barang_pengguna.user_id = user.id
-                    WHERE 
-                    user.id = " . $id . "
-                    AND
-                    br_barang_hilang.nama_brh LIKE '%" . $key . "%'
-                    OR
-                    br_barang_hilang.kategori LIKE '%" . $key . "%'
-                    OR
-                    br_barang_hilang.tgl_hilang LIKE '%" . $key . "%';";
+                        * FROM 
+                        v_br_barang_hilang_dtl
+                        WHERE user_id = $id
+                        AND
+                        (nama_barang LIKE '%" . $key . "%' OR kategori LIKE '%" . $key . "%' OR tanggal_hilang LIKE '%" . $key . "%');";
         } else {
             $query = "SELECT
-                br_barang_hilang.kd_brh as kode,
-                br_barang_hilang.nama_brh as nama_barang,
-                br_barang_hilang.kategori,
-                br_barang_hilang.tgl_hilang as tanggal_hilang,
-                br_barang_hilang.gambar1,
-                br_barang_hilang.gambar2,
-                br_barang_hilang.keterangan,
-                br_barang_hilang.status,
-                user.nama as nama_pemilik,
-                user.email,
-                user.gambar,
-                user.alamat,
-                user.no_telp
-                FROM br_barang_hilang
-                INNER JOIN br_barang_pengguna
-                ON
-                br_barang_hilang.kd_brh = br_barang_pengguna.kd_br
-                INNER JOIN user
-                ON
-                br_barang_pengguna.user_id = user.id
-                WHERE
-                user.id = " . $id . ";";
+                        * FROM 
+                        v_br_barang_hilang_dtl
+                        WHERE user_id = $id;";
         }
 
         $data['barangHilang'] = $this->db->query($query)->result_array();
@@ -417,7 +377,8 @@ class Barang extends CI_Controller
 
             $data2 = [
                 'user_id' => $data['user']['id'],
-                'kd_br' => $kdBrNow
+                'kd_br' => $kdBrNow,
+                'date' => date('Y-m-d H:i:s')
             ];
 
             $addTblBrt = $this->M_User->insertData('br_barang_temuan', $data1);
@@ -439,64 +400,22 @@ class Barang extends CI_Controller
 
     public function barangTemuanAll()
     {
-        $id = $this->input->post('id', true);
+        $data['user'] = $this->M_User->getDataW('user', ['email' => $this->session->userdata('email')]);
+        $id = $data['user']['id'];
         $key = htmlspecialchars(trim($this->input->post('keyword', true)));
 
         if ($key != '') {
             $query = "SELECT
-                    br_barang_temuan.kd_brt as kode,
-                    br_barang_temuan.nama_brt as nama_barang,
-                    br_barang_temuan.kategori,
-                    br_barang_temuan.tgl_temu as tanggal_temuan,
-                    br_barang_temuan.gambar1,
-                    br_barang_temuan.gambar2,
-                    br_barang_temuan.keterangan,
-                    br_barang_temuan.status,
-                    user.nama as nama_pemilik,
-                    user.email,
-                    user.gambar,
-                    user.alamat,
-                    user.no_telp
-                    FROM br_barang_temuan
-                    INNER JOIN br_barang_pengguna
-                    ON
-                    br_barang_temuan.kd_brt = br_barang_pengguna.kd_br
-                    INNER JOIN user
-                    ON
-                    br_barang_pengguna.user_id = user.id
-                    WHERE 
-                    user.id = " . $id . "
-                    AND
-                    br_barang_temuan.nama_brt LIKE '%" . $key . "%'
-                    OR
-                    br_barang_temuan.kategori LIKE '%" . $key . "%'
-                    OR
-                    br_barang_temuan.tgl_temu LIKE '%" . $key . "%';";
+                        * FROM 
+                        v_br_barang_temuan_dtl
+                        WHERE user_id = $id
+                        AND
+                        (nama_barang LIKE '%" . $key . "%' OR kategori LIKE '%" . $key . "%' OR tanggal_temuan LIKE '%" . $key . "%');";
         } else {
             $query = "SELECT
-                br_barang_temuan.kd_brt as kode,
-                br_barang_temuan.nama_brt as nama_barang,
-                br_barang_temuan.kategori,
-                br_barang_temuan.tgl_temu as tanggal_temuan,
-                br_barang_temuan.gambar1,
-                br_barang_temuan.gambar2,
-                br_barang_temuan.keterangan,
-                br_barang_temuan.status,
-                user.id as id_user,
-                user.nama as nama_pemilik,
-                user.email,
-                user.gambar,
-                user.alamat,
-                user.no_telp
-                FROM br_barang_temuan
-                INNER JOIN br_barang_pengguna
-                ON
-                br_barang_temuan.kd_brt = br_barang_pengguna.kd_br
-                INNER JOIN user
-                ON
-                br_barang_pengguna.user_id = user.id
-                WHERE
-                user.id = " . $id . ";";
+                        * FROM 
+                        v_br_barang_temuan_dtl
+                        WHERE user_id = $id;";
         }
 
         $data['barangTemuan'] = $this->db->query($query)->result_array();
@@ -643,6 +562,8 @@ class Barang extends CI_Controller
         $data['title'] = 'Daftar Barang Hilang';
         $data['user'] = $this->M_User->getDataW('user', ['email' => $this->session->userdata('email')]);
 
+        $data['script'] = "<script src=' " . base_url('assets') . "/js/flash.js'></script><script src=' " . base_url('assets') . "/js/apiBarang.js'></script>";
+
         $this->load->view('template/sidebar', $data);
         $this->load->view('template/topbar', $data);
         $this->load->view('barang/daftarbaranghilang', $data);
@@ -651,8 +572,38 @@ class Barang extends CI_Controller
 
     public function daftarBarangHilangAll()
     {
-        $this->M_User->getDataAll(
-            ''
-        );
+        $key = $this->input->post('keyword', true);
+        if ($key != '') {
+            $data['barang'] = $this->db->select('*')->from('v_br_barang_hilang_dtl')->like('nama_barang', $key)->or_like('kategori', $key)->or_like('tanggal_hilang', $key)->get()->result_array();
+        } else {
+            $data['barang'] = $this->M_User->getDataAll('v_br_barang_hilang_dtl');
+        }
+
+        echo json_encode($data);
+    }
+
+    public function daftarBarangTemuan()
+    {
+        $data['title'] = 'Daftar Barang Temuan';
+        $data['user'] = $this->M_User->getDataW('user', ['email' => $this->session->userdata('email')]);
+
+        $data['script'] = "<script src=' " . base_url('assets') . "/js/flash.js'></script><script src=' " . base_url('assets') . "/js/apiBarang.js'></script>";
+
+        $this->load->view('template/sidebar', $data);
+        $this->load->view('template/topbar', $data);
+        $this->load->view('barang/daftarbarangtemuan', $data);
+        $this->load->view('template/footer');
+    }
+
+    public function daftarbarangTemuanAll()
+    {
+        $key = $this->input->post('keyword', true);
+        if ($key != '') {
+            $data['barang'] = $this->db->select('*')->from('v_br_barang_temuan_dtl')->like('nama_barang', $key)->or_like('kategori', $key)->or_like('tanggal_temuan', $key)->get()->result_array();
+        } else {
+            $data['barang'] = $this->M_User->getDataAll('v_br_barang_temuan_dtl');
+        }
+
+        echo json_encode($data);
     }
 }

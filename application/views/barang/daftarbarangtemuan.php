@@ -2,25 +2,24 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
-<div id="barangHilang" class="px-5 py-4 shadow text-black rounded-3" style="background-color: white;font-size: 0.9rem;">
+<div id="daftarbarangTemuanAll" class="px-5 py-4 shadow text-black rounded-3" style="background-color: white;font-size: 0.9rem;">
     <!-- Page Heading -->
-    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <div class="d-sm-flex align-items-center justify-content-between mb-1">
         <h4 class="mb-0"><?= $title; ?></h4>
     </div>
-
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <small class="mb-0 text-gray-700">Seluruh barang hilang yang terdaftar</small>
+    </div>
     <!-- Alert -->
-    <div class="flash-message" data-text="<?= ($this->session->flashdata('result') == "Berhasil") ? "Barang Hilang Berhasil Ditambahkan" : "Barang Hilang Gagal Ditambahkan"; ?>" data-title="Tambah Barang Hilang" data-massage="<?= $this->session->flashdata('result'); ?>"></div>
+    <!-- <div class="flash-message" data-text="<?= ($this->session->flashdata('result') == "Berhasil") ? "Barang Hilang Berhasil Ditambahkan" : "Barang Hilang Gagal Ditambahkan"; ?>" data-title="Tambah Barang Hilang" data-massage="<?= $this->session->flashdata('result'); ?>"></div> -->
     <!-- End Alert -->
-    <div class="row">
-        <div class="col-sm-6">
-            <a href="<?= base_url() ?>barang/tambahBarangHilang" class="btn btn-primary mb-3">Tambah</a>
-        </div>
+    <div class="row mb-3">
         <div class="col-sm-6">
             <input id="keyword" type="text" class="form-control p-3" placeholder="Cari Barang ...">
         </div>
     </div>
     <div class="table-responsive">
-        <table class="table text-black table-bordered" data-all="<?= base_url('barang/barangHilangAll') ?>" data-hapus="<?= base_url('barang/barangHilangDelete') ?>" data-edit="<?= base_url('barang/barangHilangEdit') ?>">
+        <table class="table text-black table-bordered" data-all="<?= base_url('barang/daftarbarangTemuanAll') ?>" data-hapus="<?= base_url('barang/barangTemuanDelete') ?>" data-edit="<?= base_url('barang/barangTemuanEdit') ?>" data-id="<?= $user['id'] ?>">
             <thead>
                 <tr>
                     <th class="text-center" scope="col">#</th>
