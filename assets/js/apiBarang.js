@@ -1,6 +1,7 @@
 const divHilang = document.getElementById("barangHilang");
 const divTemuan = document.getElementById("barangTemuan");
 
+
 if (divHilang) {
 	const tblHilang = divHilang.querySelector("table.table");
 	const tblTbody = tblHilang.querySelector("tBody");
@@ -8,6 +9,11 @@ if (divHilang) {
 	const urlHapus = tblHilang.getAttribute("data-hapus");
 	const urlEdit = tblHilang.getAttribute("data-edit");
 	const keyword = divHilang.querySelector('#keyword');
+
+		// $(document).ready(function () {
+		// 	$('table.table').DataTable();
+			
+		// });
 
 	readBarangHilang();
 
@@ -555,7 +561,9 @@ else if (divBTA) {
 	const urlHapus = tblTemuan.getAttribute("data-hapus");
 	const urlEdit = tblTemuan.getAttribute("data-edit");
 	const keyword = divBTA.querySelector('#keyword');	
-	const userid = tblTemuan.getAttribute('data-id')
+	const userid = tblTemuan.getAttribute("data-id");
+
+	
 
 	readBarangTemuanAll();
 
