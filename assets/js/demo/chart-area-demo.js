@@ -27,12 +27,57 @@ function number_format(number, decimals, dec_point, thousands_sep) {
   return s.join(dec);
 }
 
-// Area Chart Example
+const xhr2 = new XMLHttpRequest;
+
+const local2 = "http://localhost/systemlogin/dashapi/areaChart";
+const server2 = "http://103.242.181.10/systemlogin/dashapi/areaChart";
+
+const month = document.getElementById('month');
+
+xhr2.addEventListener('load', function () { 
+  const jsonRes = JSON.parse(xhr2.response)['barang'];
+
+  console.log(jsonRes);
+
+  month.addEventListener('change', function() {
+      const xhr = new XMLHttpRequest;
+      xhr.open('POST', server2);
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.send('date=' + this.value);
+      xhr.addEventListener('load', function() {
+          const jsonRes = JSON.parse(xhr.response)['barang'];
+          const date = [];
+          // const datelabel = [];
+
+          jsonRes.forEach((val, index, arr) => {
+            console.log(jsonRes);
+              date.push({
+                  x: Date.parse(val['tgl_hilang']),
+                  y: val['total']
+              })
+
+              // datelabel.push(val['total']);
+          });
+
+          updateChart(myLineChart, date);
+      })
+  })
+  const date = [];
+  // const datelabel = [];
+
+  jsonRes.forEach((val, index, arr) => {
+      date.push({
+          x: Date.parse(val['tgl_hilang']),
+          y: val['total']
+      })
+
+      // datelabel.push(val['total']);
+  });
+  // Area Chart Example
 var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
       label: "Earnings",
       lineTension: 0.3,
@@ -46,7 +91,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [0, 10000, 5000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000],
+      data: date,
     }],
   },
   options: {
@@ -61,58 +106,38 @@ var myLineChart = new Chart(ctx, {
     },
     scales: {
       xAxes: [{
+        type: 'time',
         time: {
-          unit: 'date'
+          unit: 'day'
         },
-        gridLines: {
-          display: false,
-          drawBorder: false
-        },
-        ticks: {
-          maxTicksLimit: 7
-        }
       }],
       yAxes: [{
         ticks: {
-          maxTicksLimit: 5,
+          // maxTicksLimit: 5,
           padding: 10,
           // Include a dollar sign in the ticks
-          callback: function(value, index, values) {
-            return '$' + number_format(value);
-          }
+          // callback: function(value, index, values) {
+          //   return '$' + number_format(value);
+          // }
         },
-        gridLines: {
-          color: "rgb(234, 236, 244)",
-          zeroLineColor: "rgb(234, 236, 244)",
-          drawBorder: false,
-          borderDash: [2],
-          zeroLineBorderDash: [2]
-        }
       }],
     },
     legend: {
       display: false
     },
-    tooltips: {
-      backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
-      titleMarginBottom: 10,
-      titleFontColor: '#6e707e',
-      titleFontSize: 14,
-      borderColor: '#dddfeb',
-      borderWidth: 1,
-      xPadding: 15,
-      yPadding: 15,
-      displayColors: false,
-      intersect: false,
-      mode: 'index',
-      caretPadding: 10,
-      callbacks: {
-        label: function(tooltipItem, chart) {
-          var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
-          return datasetLabel + ': $' + number_format(tooltipItem.yLabel);
-        }
-      }
-    }
   }
 });
+ });
+
+ xhr2.open('POST', server2);
+ xhr2.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+ xhr2.send("date=" + month.value);
+
+ function updateChart(chart, mydata) {
+  // console.log(chart.data, mydata);
+  chart.data.datasets.forEach((dataset) => {
+      dataset.data = mydata;
+  });
+  chart.update();
+}
+

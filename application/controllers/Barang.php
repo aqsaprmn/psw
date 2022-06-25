@@ -376,6 +376,8 @@ class Barang extends CI_Controller
             ];
 
             $data2 = [
+
+
                 'user_id' => $data['user']['id'],
                 'kd_br' => $kdBrNow,
                 'date' => date('Y-m-d H:i:s')

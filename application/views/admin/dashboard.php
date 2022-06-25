@@ -52,7 +52,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Barang Kembali
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Barang
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $brp['COUNT(*)']; ?></div>
                         </div>
@@ -89,9 +89,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <!-- Area Chart -->
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Total Barang Hilang/Temuan Per Tanggal</h6>
                 </div>
                 <div class="card-body">
+                    <div class="row justify-content-end">
+                        <div class="col-6"><input id="month" type="month" value="<?= date("Y-m"); ?>" class="form-control"></div>
+                    </div>
                     <div class="chart-area">
                         <canvas id="myAreaChart"></canvas>
                     </div>
@@ -100,7 +103,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
 
             <!-- Bar Chart -->
-            <div class="card shadow mb-4">
+            <!-- <div class="card shadow mb-4">
                 <div class="card-header py-3">
                     <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
                 </div>
@@ -110,7 +113,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- Donut Chart -->
@@ -118,7 +121,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Donut Chart</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Total Barang Hilang/Temuan Per Tipe</h6>
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">

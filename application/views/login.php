@@ -9,6 +9,9 @@
                 <div class="row">
                     <div class="col-lg">
                         <div class="p-5">
+                            <div class="text-center mb-4">
+                                <img class="" style="background-color:rgba(0,0,0,0.2); border-radius:20px" src="<?= base_url() ?>assets/image/logoBHT.png" alt="">
+                            </div>
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Sign In</h1>
                             </div>
